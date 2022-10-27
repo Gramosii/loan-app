@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/unknown.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* first part */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.page-nav .page-nav-list {
+    display: flex;
+}
+
+.page-nav-list li {
+    padding: 25px;
+}
+
+.title {
+    padding: 20px;
+    font-size: 35px;
+    color: blue;
+    font-family: 'Bebas Neue', "cursive";
+}
+
+.page-nav-list {
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Bebas Neue', "cursive";
+}
+
+.loans {
+    display: flex;
+}
+
+.first-part {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 28px;
+}
+
+.personal-loan {
+    
+    color: #49E186;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loan-title {
+    color: blue;
+    font-size: 60px;
+    width: 350px;
+    font-family: 'Bebas Neue', "cursive";
+}
+
+.loan-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-icon {
+    margin-top: 50px;
+}
+
+.text-1 {
+    color: black;
+    font-family:'Bebas Neue', "cursive";
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+.text-3 {
+    margin-left: 70px;
+    color: black;
+    font-family:'Bebas Neue', "cursive";
+    font-size: 20px;
+    width: 105px;
+}
+
+
+.text-2 {
+    color: black;
+    font-family:'Bebas Neue', "cursive";
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+/* second part */
+
+.second-part {
+    margin-top: 200px;  
+    margin-left: 250px;
+}
+
+.question {
+    font-size: 35px;
+    color: black;
+    font-family:'Bebas Neue', "cursive";
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.label1 {
+    font-size: 15px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 8px;
+}
+
+.input1 {
+    width: 310px;
+    height: 35px;
+    border: none;
+    margin-top: 8px;
+}
+
+.second-part {
+    padding: 25px;
+
+    width: 400px;
+    height: 420px;
+    background: white;
+
+}
+
+.btn {
+    margin-top: 25px;
+    width: 140px;
+    height: 40px;
+    background: #09D862;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.fa-cloud {
+    color: #49E186;
+    width: 50px;
+}
+
+.fa-money-check-dollar {
+    margin-left: 60px;
+    color: #49E186;
+}
+
+.fa-clock {
+    margin-left: 70px;
+    color: #49E186;
+}
